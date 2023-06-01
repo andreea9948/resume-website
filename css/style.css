@@ -1,0 +1,208 @@
+*{
+    color: #737373;
+    font-family: 'TT Hoves Pro Trial', sans-serif;
+}
+
+.hero,.footer{
+    background-image: url("../pics/gradeint_backgr.jpg");
+    background-size: 100% 100%;
+}
+
+.hero h1{
+    font-family: 'Comfortaa', serif;
+    letter-spacing: 0.35rem;
+}
+
+.hero .name{
+    height: 10rem;
+}
+
+.circle-frame{
+    height: 15rem;
+    width: 15rem;
+    position: absolute;
+    border-radius: 50%;
+    /* background: linear-gradient(#9d7205, #b57b42, #DAA520);   */
+}
+
+.me{
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 20px 10px #737373;
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+    border: 2px solid gold ;
+}
+
+/* Disable grayscale on hover */
+.me:hover {
+    -webkit-filter: grayscale(0);
+    filter: none;
+  }
+
+.hero-description{
+    margin-top: 10rem;
+}
+
+.hero-description h2{
+    font-family: 'Comfortaa', serif; 
+    letter-spacing: 0.35rem;
+    max-width: fit-content;
+}
+
+.hero-description h4{
+    max-width: 35rem;
+    font-family: 'Comfortaa', serif; 
+}
+
+.fa-suitcase{
+    font-size: 3rem;
+    color: #d7dfeb;
+}
+
+/* WORK SECTION */
+.work-section{
+    color: #737373;
+}
+
+.bordered-top-container{
+    border: 0px;;
+    border-top: 3px solid rgb(237, 234, 234);
+    border-style: ridge;
+    padding-top: 10rem;
+
+}
+
+.cards-header-sections{
+    font-family: 'TT Hoves Pro Trial', sans-serif;
+    letter-spacing: 0.4rem;
+    max-width: fit-content;
+}
+
+.card{
+    border: 0;
+    box-shadow: 1px 2px 1px 2px#b8b8b8;
+}
+
+.card:hover{
+    box-shadow: 2px 1px 2px 1px#737373;
+}
+
+.card h5{
+    font-family: 'TT Hoves Pro Trial', sans-serif;
+    color: #737373;
+}
+
+.card-body, .card-footer{
+    background-color: rgba(250, 232, 246, 0.48);
+    letter-spacing: 0.05rem;
+}
+
+.card-header{
+    background-color: rgba(255, 248, 254, 0.48);
+
+}
+
+.work-section .calendar-pic{
+    fill: #f3c5db;
+}
+
+/* EDUCATION SECTION */
+
+.education-container img{
+    max-height: 12rem;
+    max-width: 20rem;
+}
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+    margin-top: 7rem;
+}
+
+
+.projects .card *{
+    padding-left: 7rem;
+}
+
+@media(max-width: 992px){
+    .projects .card *{
+        padding-left: 4rem;
+        min-width: fit-content;
+    }
+}
+
+.projects h5,p{
+    color: #737373;
+}
+
+.skills h1{
+    font-family: 'TT Hoves Pro Trial', sans-serif;
+    letter-spacing: 0.4rem;
+    max-width: fit-content;
+}
+
+.skills .progress{
+    margin-bottom: 1rem;
+    padding: 0px;
+}
+
+.skill-label{
+    max-width: 8rem;
+    font-size: larger;
+}
+.skills .progress-bar{
+    
+    background-color: #a3e4ef
+}
+
+
+.footer .circle-container{
+    height: 40rem;
+    width: 40rem;
+    margin-top: 5rem;
+    flex-shrink: 0;
+}
+.footer .circle{
+    height: 90%;
+    width: 90%;
+    border-radius: 50%;
+    background-color: white;
+    min-width: auto;
+    flex-shrink: 0;
+}
+
+.footer .big-circle{
+    height: 90%;
+    width: 90%;
+    border-radius: 50%;
+    background-color: none;
+    border: 1rem solid white;
+    flex-shrink: 0;
+}
+
+.footer .get{
+    padding-top: 5rem;
+}
+.phone{
+    padding-top: 5rem;
+}
+
+.phone,.mail,.addr{
+    font-size:large;
+    margin-bottom: 0.6rem;
+}
+
+.bi{
+    fill: #f3c5db;
+}
+
+.addr-marg{
+    margin-left: 2.7rem;
+}
+
+@media(max-width: 767px){
+    .phone,.mail,.addr{
+        font-size:smaller;
+    }
+}
